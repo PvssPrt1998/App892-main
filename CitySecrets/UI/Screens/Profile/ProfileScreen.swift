@@ -10,7 +10,8 @@ struct ProfileScreen: View {
             
             Image("profilePerson")
                 .resizable()
-                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width * 0.7)
+                .scaledToFit()
+                //.frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width * 0.7)
                 .scaledToFit()
                 .ignoresSafeArea()
                 .overlay(photoPicker, alignment: .bottom)

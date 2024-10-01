@@ -5,7 +5,6 @@ struct MainScreen: View {
     @EnvironmentObject var attractionViewModel: MainViewModel
     
     var body: some View {
-        
         NavigationView {
             VStack(spacing: 15) {
                 countryScroll

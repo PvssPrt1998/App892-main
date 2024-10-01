@@ -7,8 +7,8 @@ struct MainContinentCardView: View {
     var body: some View {
         Image(continent.image)
             .resizable()
-            .scaledToFill()
-            .frame(height: UIScreen.main.bounds.width * 0.4)
+            .scaledToFit()
+            //.frame(height: UIScreen.main.bounds.width * 0.4)
             .scaleEffect(CGSize(width: 1.2, height: 1.2))
             .clipShape(RoundedRectangle(cornerRadius: 12))
             .overlay(

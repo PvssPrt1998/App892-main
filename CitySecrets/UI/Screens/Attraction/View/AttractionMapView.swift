@@ -10,7 +10,6 @@ struct AttractionMapView: View {
     var body: some View {
         MapView(lat: lat, lon: lon)
             .overlay(dismissButton, alignment: .topLeading)
-        
     }
 }
 

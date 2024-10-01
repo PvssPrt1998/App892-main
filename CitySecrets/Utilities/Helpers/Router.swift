@@ -49,6 +49,7 @@ final class Router: ObservableObject {
                 .ignoresSafeArea()
         case .imagePicker:
             ImagePicker(onImagePicked: onImagePicked)
+                .ignoresSafeArea(.container, edges: .bottom)
         }
     }
 }

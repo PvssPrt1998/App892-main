@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "Экран загрузки.png",
+      "filename" : "Splash.png",
       "idiom" : "universal"
     }
   ],
